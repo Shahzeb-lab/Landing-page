@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twinkle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo"><img src="OIP.jpeg" alt="Twinkle"></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="togle" onclick="toggleMenu()">&#9776;</div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to MySite</h1>
+            <p>Your success is our commitment.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="about" >
+        <h1>About Us</h1>
+        <div class="grid-item">
+            <h3>Sustainable Play</h3>
+            <p>We enable you to buy or sell preloved toys with ease</p>
+            <img src="sus.webp" alt="img">
+            
+            
+        </div>
+        <div class="grid-item">
+            <h3>Safety & Cleanliness</h3>
+            <p>
+                As parents, we understand that your child's health and safety are your top priorities.
+                
+                That's why we rigorously inspect every toy and product in our marketplace, ensuring they meet the highest standards of safety, cleanliness, and quality.
+                
+                Through the ReNew & RePlay Movement, we continue this commitment, providing families with safe, sustainable options they can trust.</p>
+            <img src="sa.webp" alt="img">
+            
+           
+        </div>
+            
+        
+    </section>
+
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service-box">
+                <h3>Web Development</h3>
+                <p>Creating beautiful and responsive websites.</p>
+            </div>
+            <div class="service-box">
+                <h3>Digital Marketing</h3>
+                <p>Helping you reach a wider audience online.</p>
+            </div>
+            <div class="service-box">
+                <h3>SEO Optimization</h3>
+                <p>Boosting your website's visibility on search engines.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 MySite. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
